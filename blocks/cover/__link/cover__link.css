@@ -1,0 +1,10 @@
+.cover__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: url(../../../images/cursor.svg), pointer;
+    opacity: 0.8;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
