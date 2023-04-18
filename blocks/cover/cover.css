@@ -1,32 +1,5 @@
 .cover {
     position: relative;
-    background-image: url(../../images/cover-background.jpg);
     margin: auto;
     max-width: 1184px;
-    height: calc(100vw * 0.578125);
-    max-height: 740px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-@media screen and (max-width: 1279px) {
-    .cover {
-        width: 100%;
-        height: calc(100vw * 0.625);
-    }
-}
-
-.cover::before {
-    content: "";
-    position: absolute;
-    background: #2A2C2F;
-    opacity: 0.3;
-    width: 100%;
-    height: 100%;
-}
-
-.cover:hover {
-    cursor: url(../../images/cursor.svg), pointer;
-    opacity: 0.8;
 }
